@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="card-category">
+        <h1># Jogo da Velha #</h1>
+      </div>
+    </header>
+    <div class="players">
+      <div class="user-player">
+        <label for="player1" >X</label>
+        <input type="text" id="player1" placeholder="Nome do Jogador 1">
+      </div>
+      <div class="user-player">
+        <label for="player2">O</label>
+        <input type="text" id="player2" placeholder="Nome do Jogador 2">
+      </div>
+    </div>
+    <button id="start">Começar!</button>
+    <h2> <span id="turnPlayer"></span></h2>
+    <div class="winner">
+      <section id="gameBoard">
+        <span class="cursor-pointer" data-region="0.0"></span>
+        <span class="cursor-pointer" data-region="0.1"></span>
+        <span class="cursor-pointer" data-region="0.2"></span>
+        <span class="cursor-pointer" data-region="1.0"></span>
+        <span class="cursor-pointer" data-region="1.1"></span>
+        <span class="cursor-pointer" data-region="1.2"></span>
+        <span class="cursor-pointer" data-region="2.0"></span>
+        <span class="cursor-pointer" data-region="2.1"></span>
+        <span class="cursor-pointer" data-region="2.2"></span>
+      </section>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a href="https://github.com/Rudneyalmeida" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rudneyalmeida/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright">
+        Desenvolvido por Rudney Almeida <i class="fa-solid fa-code"></i>
+      </div>
+    </div>
+  </body>
+</html>
