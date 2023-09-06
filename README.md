@@ -26,7 +26,7 @@ If you want to run this application in your local environment, follow these step
 1. Clone this repository to your computer:
 
    ```
-   git clone https://github.com/rudneyalmeida/tic-tac-toe_JavaScript.git
+   git clone https://github.com/Rudneyalmeida/Tic-tac-toe_JavaScript.git
    ```
 
 2. Navigate to the cloned directory:
